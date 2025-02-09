@@ -43,10 +43,7 @@ For **CUDA 12.4**:
 ```sh
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
-For **CPU Only**:
-```sh
-pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-```
+
 
 ## Step 3: Install F5-TTS
 ```sh
