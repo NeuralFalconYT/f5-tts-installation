@@ -1,4 +1,4 @@
-# F5-TTS Installation Guide
+# [F5-TTS](https://github.com/SWivid/F5-TTS) Installation Guide
 
 ## Prerequisites
 Ensure you have Python installed (recommended version: 3.8 or higher).
