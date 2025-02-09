@@ -31,19 +31,15 @@ Example output might indicate CUDA 11.8, 12.1, or 12.4.
 ### Install PyTorch and TorchAudio Based on CUDA Version
 Visit the [PyTorch Get Started](https://pytorch.org/get-started/locally/) page for official guidance.
 
-For **CUDA 11.8**:
+Example my cuda version is **CUDA 11.8**:
 ```sh
+pip install torch==2.3.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+pip install torchaudio==2.3.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+```
+or,
+```
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
-For **CUDA 12.1**:
-```sh
-pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
-```
-For **CUDA 12.4**:
-```sh
-pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
-```
-
 
 ## Step 3: Install F5-TTS
 ```sh
