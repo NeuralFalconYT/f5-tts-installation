@@ -4,10 +4,10 @@
 Ensure you have Python installed (recommended version: 3.8 or higher).
 
 ## Step 1: Create a Folder and Set Up a Virtual Environment
-Manually create a folder or use the command below (you can name it anything, e.g., `f5-tts`):
+Manually create a folder or use the command below (you can name it anything, e.g., `local`):
 ```sh
-mkdir f5-tts
-cd f5-tts
+mkdir local
+cd local
 python -m venv myenv
 ```
 
@@ -43,7 +43,9 @@ pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 ## Step 3: Install F5-TTS
 ```sh
-pip install git+https://github.com/SWivid/F5-TTS.git
+git clone https://github.com/SWivid/F5-TTS.git
+cd F5-TTS
+pip install -e .
 ```
 
 Ensure you are inside the virtual environment before proceeding.
